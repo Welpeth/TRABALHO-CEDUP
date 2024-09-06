@@ -1,0 +1,148 @@
+
+.title {
+    display: flex;
+    position: relative;
+    min-width: 70%; 
+    margin-left: 2%;
+    margin-bottom: 100rem;
+}
+
+.title h1 {
+    font-size: 45px;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.images  {
+    display: none;
+}
+
+
+.container {
+    display: flex;
+    position: relative;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 40%;
+    
+}
+
+
+.imagem-principal img {
+    width: 100%;
+    height:800px;
+    position: absolute;
+    margin-top: -2072px;
+    display: flex; flex-wrap: wrap;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+.conteudos-receita {
+    margin-top: 20%;
+}
+
+.conteudos-receita p, h1, h2 {
+    display: flex;
+    position: relative;
+    margin-left: 10%;
+    min-width: 70%;
+    text-align: justify;
+} 
+
+.footer-container {
+    display: flex;
+}
+
+.footer-background {
+    font-family: "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    background-color: rgb(24, 24, 24);
+}
+
+.footer-background .conteudo h1 {
+    font-size: 16px;
+    display: flex;
+    position: relative;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.title-footer {
+    position: relative; /* Torna o .title-footer o contêiner de referência para o posicionamento absoluto */
+    margin-left: 50rem;
+    padding: 1rem;
+    margin-top: 5rem;
+  }
+  
+  .title-footer h1 {
+    position: absolute;
+    color: white;
+    margin-left: 50rem;
+    font-size: 16px;
+    margin: 0; /* Remove margens para evitar espaçamentos extras */
+  }
+
+.symbols {
+    color: white;
+    display: flex;
+    gap: 30px;
+    margin-top: 10rem;
+    position: relative;
+    margin-left: 53rem;
+}
+
+.symbols a {
+    color: white;
+}
+
+
+/* carrosel de css-tricks.com */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .gallery {
+    background: #EEE;
+}
+
+.gallery-cell {
+    width: 66%;
+    height: 400px;
+    margin-right: 10px;
+    background: #8C8;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.gallery-cell img {
+    width: 100%; 
+    height: auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    object-fit: cover; 
+}
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}

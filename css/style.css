@@ -1,0 +1,192 @@
+/* footer from codepen.io */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-top: 300px;
+  background-color: #fff;
+  background-image:
+    radial-gradient(
+      circle at 100% 50%,
+      transparent 1rem,
+      #232221 1rem,
+      #232221 1.5rem,
+      transparent 1.5rem),
+      radial-gradient(
+        circle at 0% 50%,
+        transparent 1rem,
+        #232221 1rem,
+        #232221 1.5rem,
+        transparent 1.5rem);
+      background-size: 9rem 5rem;
+      background-position: 0 0, 0 2.5rem;
+
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.primary-background {
+  margin-top: 1530px;
+  position: absolute;
+  display: flex;
+  height: 540px;
+  width: 100%;
+  background-color: #705f5f;
+  background: linear-gradient(#9a8484, #7d5e5e);
+  min-height: 500px; /* Apenas para garantir que a div é visível */
+  min-width: 500px;
+  box-shadow: 0cap;
+  z-index: -1;
+}
+
+.secondary-background {
+  margin-top: 1900px;;
+  margin-left: 280px;
+  position: absolute;
+  display: flex;
+  height: 1200px;
+  width: 1220px;
+  background-color: #fffcfc;
+  min-height: 100%; /* Apenas para garantir que a div é visível */
+  min-width: 500px;
+  z-index: -2;
+  background: linear-gradient(#c2bfbf, #fcfcfc)
+}
+
+.third-background {
+  margin-top: -230px;
+  position: absolute;
+  display: flex;
+  height: 737px;
+  width: 100%;
+  background-color: #28252b;
+  min-height: 500px; /* Apenas para garantir que a div é visível */
+  min-width: 500px;
+  box-shadow: 0cap;
+  z-index: -2;
+}
+
+.fourth-background {
+  margin-top: 500px;
+  margin-left: 300px;
+  position: absolute;
+  display: flex;
+  height: 1100px;
+  width: 65%;
+  background-color: #ffffff;
+  background: linear-gradient(#ffffff, #bbb7b7);
+  min-height: 500px; /* Apenas para garantir que a div é visível */
+  min-width: 500px;
+  box-shadow: 0cap;
+  z-index: -2;
+}
+
+.fourth-background p {
+  font-size: 30px;
+  text-justify: auto;
+  max-width: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  margin-left: 8%;
+  margin-top: 20%;
+}
+
+.fourth-background h1 {
+  margin-top: 10%;
+  color: rgb(103, 187, 103);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 8%;
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+}
+
+.footer {
+  list-style: none;
+  position: relative;
+  margin-top: 300px;
+  padding: 3rem 0;
+  color: #fff;
+  background: #201f1f;
+  margin-top: auto;
+}
+
+.footer__nav-item{
+  list-style: none;
+  font-size: 27px;
+  gap: 10px;
+}
+
+.footer__nav-item p{
+  font-size: 15px;
+  margin-top: -8%;
+  margin-left: 12%;
+  font-style: none;
+  font-family: none;
+  width: 300px;
+}
+
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__col-title {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.footer__col-title *~span {
+  margin-left: 1rem;
+}
+
+.steps-list {
+  align-items: center;
+  text-align: justify;
+  margin-left: 7%;
+}
+
+.steps-list li {
+  list-style-type: disc; /* Define o tipo de marcador da lista (pode ser 'circle', 'square', etc.) */
+  margin-left: 20px; /* Espaçamento à esquerda para a lista */
+  max-width: 1000px;
+  font-size: 35px;
+}
+
+.steps-list p {
+  margin-top: 10%;
+  font-weight: bolder;
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a *~span {
+  margin-left: 1rem;
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
